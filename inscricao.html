@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-AO">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Inscrição - Caco Kumoxi</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header><img src="images/logo.png" alt="logo" style="max-width:140px;display:block;margin:10px auto;"><h1 style="text-align:center;color:#004466;">Inscrição nos Serviços</h1></header>
+<nav style="text-align:center;padding:10px;background:#033a4d;"><a href="index.html" style="color:#fff;margin-right:12px;">Home</a> <a href="vistos.html" style="color:#fff;margin-right:12px;">Vistos</a> <a href="turismo.html" style="color:#fff;margin-right:12px;">Turismo</a></nav>
+<main class="container">
+  <section class="card">
+    <h2>Formulário de Inscrição</h2>
+    <form id="inscricaoForm" name="inscricao" method="POST" data-netlify="true" enctype="multipart/form-data">
+      <input type="hidden" name="form-name" value="inscricao">
+      <label>Nome completo</label><input type="text" name="nome" required>
+      <label>Email</label><input type="email" name="email" required>
+      <label>Telefone / WhatsApp</label><input type="tel" name="telefone" required>
+      <label>Número do Bilhete de Identidade</label><input type="text" name="bilhete" required>
+      <label>Número do Passaporte</label><input type="text" name="passaporte" required>
+      <label>Data de nascimento</label><input type="date" name="nascimento" required>
+      <label>País de residência</label><input type="text" name="pais" required>
+      <label>País de destino</label>
+      <select name="destino" required>
+        <option value="">-- selecione --</option>
+        <option>Portugal</option><option>Espanha</option><option>França</option>
+        <option>Itália</option><option>Bélgica</option><option>Holanda</option>
+        <option>Alemanha</option><option>Reino Unido</option><option>EUA</option>
+        <option>Canadá</option><option>Brasil</option><option>África do Sul</option>
+        <option>Namíbia</option><option>China</option><option>Emirados Árabes</option>
+      </select>
+      <label>Tipo de serviço</label>
+      <select name="servico" required><option value="">-- selecione --</option><option>Passagens</option><option>Vistos</option><option>Pacote turístico</option><option>Consultoria</option><option>Outro</option></select>
+      <label>Upload de documentos (bilhete/passaporte)</label><input type="file" name="documentos" accept=".jpg,.jpeg,.png,.pdf" required>
+      <div class="form-row" style="display:flex;gap:.6rem;margin-top:10px">
+        <button type="submit" class="btn">Enviar Inscrição</button>
+        <a class="btn" href="https://calendar.app.google/wsihFRWnz8FNR6fC6" target="_blank">📅 Agendar Encontro</a>
+      </div>
+    </form>
+  </section>
+</main>
+<footer style="text-align:center;padding:20px;background:#004466;color:#fff;margin-top:20px;">&copy; 2025 Caco Kumoxi</footer>
+<a class="whatsapp-float" href="https://wa.me/244923914486" target="_blank">💬</a>
+<script src="script.js"></script>
+</body>
+</html>

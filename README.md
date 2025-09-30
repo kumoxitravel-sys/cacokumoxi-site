@@ -1,2 +1,1 @@
-# cacokumoxi-site
-Website oficial da agência de viagens Caco Kumoxi
+Caco Kumoxi - Pacote completo. Substitua imagens placeholders por fotos reais.
